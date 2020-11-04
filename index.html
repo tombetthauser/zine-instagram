@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <title>🌱 Why Artists Should Never Get Off Instagram</title>
+  <meta charset="UTF-8">
+</head>
+
+<style>
+  body {
+    border-right: 3px dotted white;
+    border-left: 3px dotted white;
+    background-color: black;
+    font-family: serif;
+    margin: 50px auto;
+    line-height: 20px;
+    max-width: 500px;
+    color: white;
+    display: block;
+    padding: 50px;
+  }
+
+  .code {
+    border: 1px solid white;
+    border-radius: 0 0 25px 0;
+    font-family: monospace;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    padding: 25px;
+  }
+
+  .code-header {
+    border: 1px solid white;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 5px 10px;
+  }
+
+  img {
+    filter: invert(1) contrast(10);
+    display: block;
+    margin: auto;
+    width: 80%;
+    /* border-radius: 50%; */
+  }
+
+  h1, h2, h3 {
+    line-height: 40px;
+    font-weight: 100;
+    margin-top: 30px;
+  }
+
+  a {
+    font-weight: 800;
+    color: white;
+  }
+
+  .ending-text a {
+    text-decoration: none;
+    font-weight: 100;
+  }
+
+  .ending-text { text-align: center; }
+  div { margin-bottom: 75px; }
+
+  @media only screen and (max-width: 750px) {
+      body {
+        background-color: black;
+        margin: 0 auto 50px;
+        border-right: none;
+        font-family: serif;
+        border-left: none;
+        line-height: 20px;
+        min-width: 350px;
+        display: block;
+        color: white;
+        padding: 25px;
+      }
+  }
+
+  @media only print {
+    body {
+      border-right: 2px dotted black;
+      border-left: 2px dotted black;
+      padding-right: 25px;
+      padding-left: 25px;
+      line-height: 18px;
+      margin-top: 100px;
+      padding-top: 0px;
+      font-size: 14px;
+      max-width: 50%;
+      min-width: 50%;
+      width: 50%;
+    }
+
+    img {
+      max-width: 80%;
+      min-width: 80%;
+      filter: none;
+      width: 80%;
+    }
+
+    @page {
+      padding-bottom: 50px;
+      padding-top: 50px;
+      margin: 0mm;
+      size: auto;
+    }
+
+    h1 { margin-top: 0; }
+    .code-header { border-color: black; }
+    .code { border-color: black; }
+  }
+</style>
+
+<body>
+  <div>
+    <h1>Ten Arguments for Artists Deleting Their Instagram Accounts Right Now and One Reason Why We Never Will</h1>
+    <p>
+      A printable digital zine translating the points from Jaron Lanier's 'Ten Arguments for Deleting Your Social Media Accounts Right Now' for visual artists from the perspective of a former painting and art history professor.
+    </p>
+    <br>
+    <img src="face-2.jpg" alt="">
+    <br>
+
+    <p>
+    </p>
+    <h2>Short-ish Version</h2>
+
+    <p>
+      I've been watching instagram erode art communities, professional relationships and the critical viability of studio practices for the better part of a decade. Social media is bad for artists in the same way it's bad for everybody else (duh), except it's more than just cheap entertainment that's at stake for us. Unlike musicians or small businesses who have a viable ecosystem of other platforms, visual artists are increasingly stuck with only the option of instagram, which it's worth remembering wasn't designed for visual artists and whose layout and social algorithms often directly inhibit our needs. With the increased deterioration of physical arts institutions, if we're not on instagram we simply don't exist. That's all.
+    </p>
+    <!-- <p>Instagram wasn't designed for us and it's changing what we make and how we make it.</p> -->
+
+    <h2>Who is Jaron Lanier?</h2>
+    <p>
+      In short, he is the quintessential tech hippie and an accomplished software engineer specializing in virtual reality. He's written several books that attempt to reach outside of the software engineering community to the software consuming community that increasingly grows to encompass the totality of our species.
+    </p>
+    <p>
+      I've been watching instagram erode my professional connections since I got out of grad school. It's coerced us into shallow ego-driven behavior that I don't think reflects our charactors and it has alienated us into an endless petty competition that none of us will ever win. In response to this I decided to read through Jaron Lanier's 2018 book "10 Reasons You Should Delete Your Social Media Accounts Right Now".
+    </p>
+    <p>
+      I recently switched from adjuncting painting, drawing and art history to software engineering in the hopes of better supporting my studio practice. Their culture–and sometimes refreshing absence of culture–has fascinated me, and although Lanier is a somewhat polarizing figure, few engineers working in tech disagree with his conclusions whole-heartedly. The perspective he outlines in his books and interviews seems to reflect the general foundation of assumptions that many engineers seem to operate under, even if they don't in any way embody his charactor.
+    </p>
+    <p>In any case it's a fun empowering project to take on!</p>
+  </div>
+
+  <div>
+    <h2>Step One: Make a GitHub Account</h2>
+    <p>
+      What's GitHub? It's a free platform for hosting collaborative programming projects that's used by almost every
+      modern programmer and web developer. They also offer free website hosting to showcase projects, which we can use to
+      host our artist's website.
+    </p>
+    <p>
+      Just go to <a href="http://www.github.com">http://www.github.com</a> and create a new account!
+    </p>
+  </div>
+
+  <div>
+    <h2>Step Two: Create a New Project</h2>
+    <p>
+      In GitHub speak, we call projects <b>reposatories</b>. Look around for the link to <b>create a new reposatory</b>
+      and give it a click. You'll be asked to create a name, which could just be your name or <b>"portfolio-website"</b>,
+      just use dashes instead of spaces. Regardless the name is totally up to you!
+    </p>
+  </div>
+
+  <div>
+    <h2>Step Three: Make a New File</h2>
+    <p>
+      Find and click the link to <b>create a new file</b>. You'll want to name it <b>index.html</b>. Basically this tells
+      the computer that it should display this as a webpage.
+    </p>
+    <p>
+      Now paste the following in the new file:
+    </p>
+
+    <div class="code">
+      <div class="code-header">
+        <b>index.html</b>
+      </div>
+
+      &lt;!DOCTYPE html&gt; <br>
+      &lt;html lang="en"&gt; <br>
+      <br>
+      &lt;head&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;title&gt;<b>Your Name Here</b>&lt;/title&gt; <br>
+      &lt;/head&gt; <br>
+      <br>
+      &lt;body&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;h1&gt; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <b>Welcome to my Portfolio Website!</b><br>
+      &nbsp;&nbsp;&nbsp;&lt;/h1&gt; <br>
+      &lt;/body&gt; <br>
+      <br>
+      &lt;/html&gt; <br>
+    </div>
+
+    <p>
+      This is HTML (Hyper Text Markup Language), it's hideous because it was invented in the early 1990's! But the good
+      news is that it's simple once you get used to looking at it.
+    </p>
+    <p>
+      The purpose of HTML is to tell web browsers how to format text, images etc. For instance when we see
+      <b>&lt;h1&gt;Welcome to my Portfolio Website!&lt;/h1&gt;</b> the <b>h1</b> tells a web browser that we want this
+      text to be formatted as a title. We call these things <b>html tags</b> or in this case an <b>h1 tag</b>.
+    </p>
+  </div>
+
+  <div>
+
+    <h2>
+      Step Four: Save the File!
+    </h2>
+    <p>
+      When we want to save changes to a file on GitHub, we do something called <b>committing</b>. Just think of it as
+      committing the changes you've made to a file or a bunch of files.
+    </p>
+    <p>
+      Down towards the bottom of the page click the button that says <b>Commit changes</b> or <b>Commit new file</b>. This
+      will save everything you've done!
+    </p>
+  </div>
+
+  <div>
+    <h2>
+      Step Five: Bring it to Life!
+    </h2>
+    <p>
+      Now let's make this a real life website! Go to the <b>settings</b> section of your project and find the <b>GitHub
+        Pages</b> section down towards the bottom. Now click the dropdown that says <b>none</b> and select <b>master</b>.
+      Then click save to the right. When the page reloads if you scroll back down to that
+      section there should be a live clickable link.
+    </p>
+    <p>
+      If you try to click this link right now you might get a dead page, it might take a little while after first turning
+      this on. The internet pipes can be slow and creaky. But after a few minutes it should work and now any committed
+      updates you make should be pretty close to instantaneous.
+    </p>
+
+    <p>
+      In any case, congratulations! This is now your personal website! Anyone on the internet can access this url and it
+      will update any time you save (commit) new images and text.
+    </p>
+    <p>
+      Of course you probably want to use a custom url like <b>www.yourname.com</b>, that's a seperate process but don't
+      worry it's pretty simple and you can do it after you finish your website.
+    </p>
+    <p>
+      You can always find the link address to your website here in the settings, but you might want to copy it and keep it
+      somewhere just to save yourself the time.
+    </p>
+  </div>
+
+  <div>
+    <h2>
+      Step Six: Add an Image File!
+    </h2>
+    <p>
+      Now click around until you get back to the root page for our project (reposatory) where we can see a link to our
+      <b>index.html</b> file that we created a while ago.
+    </p>
+    <p>
+    </p>
+    <p>
+      Once we're here you should see a dropdown button that says <b>Add file</b>. Select the <b>upload files</b> option
+      and upload an image from your computer. Now click <b>choose your file</b> and select a picture file from your
+      computer. Any picture will do, this can just a place holder that you'll probably change later.
+    </p>
+    <p>
+      Once the file is done uploading click the <b>Commit changes</b> button again.
+    </p>
+  </div>
+
+  <div>
+    <h2>
+      Step Seven: Add the Image to Your Website!
+    </h2>
+    <p>
+      Now let's add a reference to that image to your actual website so it appears with your text.
+    </p>
+    <p>
+      Go back to the main page for your project, you should be able to click your <b>index.html</b> file. After doing this
+      you should be able to see all the HTML we pasted in there before.
+    </p>
+    <p>
+      Find and click the <b>pencil icon</b>, this will allow you to edit the HTML file and should be towards the top right
+      of the area where the HTML appears.
+    </p>
+    <p>
+      Now you should be able to edit all this HTML freely. Update your <b>index.html</b> file so that it includes a
+      <b>&lt;img src="<b>your-files-name.jpg</b>"&gt</b> line that looks like this:
+    </p>
+
+    <div class="code">
+      <div class="code-header">
+        <b>index.html</b>
+      </div>
+
+      &lt;!DOCTYPE html&gt; <br>
+      &lt;html lang="en"&gt; <br>
+      <br>
+      &lt;head&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;title&gt;<b>Your Name Here</b>&lt;/title&gt; <br>
+      &lt;/head&gt; <br>
+      <br>
+      &lt;style&gt; <br>
+      &nbsp;&nbsp;&nbsp; img { <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; width: 500px; <br>
+      &nbsp;&nbsp;&nbsp; } <br>
+      &lt;/style&gt; <br>
+      <br>
+      &lt;body&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;h1&gt; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Welcome to my Portfolio Website!</b><br>
+      &nbsp;&nbsp;&nbsp;&lt;/h1&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;img src="<b>your-files-name.jpg</b>"&gt; <br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&lt;p&gt; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Untitled Image, acrylic on canvas, 2020.</b><br>
+      &nbsp;&nbsp;&nbsp;&lt;/p&gt; <br>
+      &lt;/body&gt; <br>
+      <br>
+      &lt;/html&gt; <br>
+    </div>
+
+    <p>
+      In the <b>&lt;img src="your-files-name.jpg"&gt;</b> make sure the full image file name in the quote matches how the
+      file name appears on GitHub, including the <b>.jpg</b> which might be <b>.png</b> or something else depending on the
+      file you uploaded. The <b>&lt;style&gt;</b> section we've added is for controlling the style of our text, images
+      etc. In this case we're doing just what it looks like we're doing, making all our images 500 pixels wide. This is
+      referred to as CSS rather than HTML, but we'll get into that more later.
+    </p>
+    <p>
+      The <b>&lt;img&gt;</b> is referred to as an <b>image tag</b> with <b>src</b> being short for <b>image source</b>.
+      The <b>&lt;p&gt;</b> is referred to as a <b>paragraph tag</b>, which translates to regular sized text.
+    </p>
+    <p>
+      Now confirm that it's working ok by loading your website's link in another tab. You might have to wait a minute or
+      two and reload the page a couple times before the site updates. Remember you can always find your website link again
+      under the <b>GitHub Pages</b> section under <b>Settings</b>.
+    </p>
+  </div>
+
+
+
+  <div>
+    <h2>
+      Step Eight: Add a Second Page!
+    </h2>
+    <p>
+      You may want to have seperate pages for your cv / resume or different bodies of work etc. To do this all you have to
+      do is add another <b>.html</b> file in your project!
+    </p>
+    <p>
+      Back on the main GitHub page for this project click the <b>Add file</b> dropdown again and select <b>Create new
+        file</b>. You can name it <b>page-two.html</b> for now in the space where it says <b>Name your file...</b>. Now
+      you can paste this starter template again and populate it however you want!
+    </p>
+
+    <div class="code">
+      <div class="code-header">
+        <b>second-page.html</b>
+      </div>
+
+      &lt;!DOCTYPE html&gt; <br>
+      &lt;html lang="en"&gt; <br>
+      <br>
+      &lt;head&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;title&gt;<b>Your Second Page Name Here</b>&lt;/title&gt; <br>
+      &lt;/head&gt; <br>
+      <br>
+      &lt;style&gt; <br>
+      &nbsp;&nbsp;&nbsp; img { <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; width: 500px; <br>
+      &nbsp;&nbsp;&nbsp; } <br>
+      &lt;/style&gt; <br>
+      <br>
+      &lt;body&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;h1&gt; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Welcome to my Second Page!</b><br>
+      &nbsp;&nbsp;&nbsp;&lt;/h1&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;img src="<b>your-image-file-name.jpg</b>"&gt; <br>
+      <br>
+      &nbsp;&nbsp;&nbsp;&lt;p&gt; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Untitled Image (again), acrylic on canvas, 2020.</b><br>
+      &nbsp;&nbsp;&nbsp;&lt;/p&gt; <br>
+      &lt;/body&gt; <br>
+      <br>
+      &lt;/html&gt; <br>
+    </div>
+
+    <p>
+      Now click the <b>Commit new file</b> button at the bottom of the page once again. You might notice that this page
+      doesn't seem to be accessible on your actual website once it updates. It exists but we need to create a link to it
+      in the next step!
+    </p>
+    <p>
+      Side note, notice that you can re-use that same image from before, welcome to the magic of web development!
+    </p>
+  </div>
+
+  <div>
+    <div>
+      <h2>Step Nine: Add a Link!</h2>
+      <p>
+        Now let's add a link on our <b>index.html</b> page that will go to the new page we just made. Go back to your main
+        project page, click on <b>index.html</b> and update your HTML to look something like this:
+      </p>
+    </div>
+
+    <div class="code">
+      <div class="code-header">
+        <b>index.html</b>
+      </div>
+
+      &lt;!DOCTYPE html&gt; <br>
+      &lt;html lang="en"&gt; <br>
+      &lt;head&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;title&gt;Your Name Here&lt;/title&gt; <br>
+      &lt;/head&gt; <br>
+      &lt;style&gt; <br>
+      &nbsp;&nbsp;&nbsp; img { <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; width: 500px; <br>
+      &nbsp;&nbsp;&nbsp; } <br>
+      &lt;/style&gt; <br>
+      &lt;body&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome to my Portfolio Website!&lt;/h1&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;img src="your-image-file-name.jpg"&gt; <br>
+      <br><b>
+        &nbsp;&nbsp;&nbsp;&lt;a href="second-page.html"&gt;link to my second page&lt;/a&gt;<br>
+      </b><br>
+      &nbsp;&nbsp;&nbsp;&lt;p&gt;Untitled Image, acrylic on canvas, 2020.&lt;/p&gt; <br>
+      &lt;/body&gt; <br>
+      &lt;/html&gt; <br>
+    </div>
+
+    <p>
+      As always click the <b>Commit changes</b> button towards the bottom of the page, wait a minute or two and check out
+      what your page looks like now!
+    </p>
+
+    <p>
+      As a bonus see if you can successfully add a link back to your home page somewhere on your second page. It should
+      look something like this:
+    </p>
+
+    <div class="code">
+      <div class="code-header">
+        <b>second-page.html</b>
+      </div>
+
+      &lt;!DOCTYPE html&gt; <br>
+      &lt;html lang="en"&gt; <br>
+      &lt;head&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;title&gt;Your Second Page Name Here&lt;/title&gt; <br>
+      &lt;/head&gt; <br>
+      &lt;style&gt; <br>
+      &nbsp;&nbsp;&nbsp; img { <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; width: 500px; <br>
+      &nbsp;&nbsp;&nbsp; } <br>
+      &lt;/style&gt; <br>
+      &lt;body&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome to my Second Page!&lt;/h1&gt; <br>
+      &nbsp;&nbsp;&nbsp;&lt;img src="your-image-file-name.jpg"&gt; <br>
+
+      &nbsp;&nbsp;&nbsp;&lt;p&gt; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Untitled Image (again), acrylic on canvas, 2020.<br>
+      &nbsp;&nbsp;&nbsp;&lt;/p&gt; <br>
+
+      <br><b>
+        &nbsp;&nbsp;&nbsp;&lt;a href="index.html"&gt;link to my home page&lt;/a&gt;<br>
+      </b><br>
+
+      &lt;/body&gt; <br>
+      &lt;/html&gt; <br>
+    </div>
+
+    <p>
+      Hit the <b>Commit changes</b> button as always, give it a few minutes to update and then check it out. You should be able to go back and forth between pages now!
+    </p>
+  </div>
+
+
+  
+  <div>
+    <h2>
+      Step Ten: Style it Up!
+    </h2>
+    <p>
+      Before wrapping this little demo page let's add a little bit more CSS in the <b>style</b> section of our <b>index.html</b> and <b>second-page.html</b> pages. Check out how your page looks if you update your pages to look like this.
+    </p>
+    <div class="code">
+      <div class="code-header">
+        index.html
+      </div>
+      &lt;!DOCTYPE html&gt;<br>
+      &lt;html lang="en"&gt;<br>
+      &lt;head&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+      &nbsp;&nbsp;&nbsp&lt;meta name="viewport" content="width=device-width, initial-scale=0.8"&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;title&gt;Your Name Here&lt;/title&gt;<br>
+      &lt;/head&gt;<br>
+      &lt;style&gt;<br>
+      &nbsp;&nbsp;&nbsp; body {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-family: sans-serif;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: block;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin-left: auto;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin-right: auto;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin-top: 50px;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 500px;<br>
+      &nbsp;&nbsp;&nbsp; }<br>
+      &nbsp;&nbsp;&nbsp; a {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: cornflowerblue;<br>
+      &nbsp;&nbsp;&nbsp; }<br>
+      &lt;/style&gt;<br>
+      &lt;body&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome to my Portfolio Website!&lt;/h1&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;img src="your-image-file-name"&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;a href="second-page.html"&gt;link to my second page&lt;/a&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;p&gt;Untitled Image, acrylic on canvas, 2020.&lt;/p&gt;<br>
+      &lt;/body&gt;<br>
+      &lt;/html&gt; <br>
+    </div>
+    
+    <div class="code">
+      <div class="code-header">
+        second-page.html
+      </div>
+      &lt;!DOCTYPE html&gt;<br>
+      &lt;html lang="en"&gt;<br>
+      &lt;head&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+      &nbsp;&nbsp;&nbsp&lt;meta name="viewport" content="width=device-width, initial-scale=0.8"&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;title&gt;Your Second Page Name Here&lt;/title&gt;<br>
+      &lt;/head&gt;<br>
+      &lt;style&gt;<br>
+      &nbsp;&nbsp;&nbsp; body {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-family: sans-serif;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: block;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin-left: auto;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin-right: auto;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin-top: 50px;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 500px;<br>
+      &nbsp;&nbsp;&nbsp; }<br>
+      &nbsp;&nbsp;&nbsp; a {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: cornflowerblue;<br>
+      &nbsp;&nbsp;&nbsp; }<br>
+      &lt;/style&gt;<br>
+      &lt;body&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome to my Second Page!&lt;/h1&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;img src="your-image-file-name.jpg"&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;p&gt;Untitled Image, acrylic on canvas, 2020.&lt;/p&gt;<br>
+      &nbsp;&nbsp;&nbsp;&lt;a href="index.html"&gt;link to my home page&lt;/a&gt;<br>
+      &lt;/body&gt;<br>
+      &lt;/html&gt; <br>
+    </div>
+    <p>
+      Note that we added some stuff to the top of the files in <b>meta tags</b>. Don't worry about these, they're just standard additions to make styling consistent on different machines. Also note that some things like our <b>h1 tags</b> and <b>p tags</b> have been condensed to one line, this optional in HTML and shouldn't change anything visually.
+    </p>
+  </div>
+
+  <div>
+    <h2>
+      Step Eleven: Go Nuts!
+    </h2>
+    <p>
+      At this point you've built the major components you'll need for a fully functional gallery or artist's website. You can start playing around with adding new images, new pages and new links until it starts to look like a real website!
+    </p>
+    <p>
+      To learn more about HTML and CSS styling I'd recommend going through the two tutorials below step-by-step. They're super interactive and will walk you through from no prior experience to highly proficient very efficiently.  
+    </p>
+    <ul>
+      <li><a href="https://www.w3schools.com/html/default.asp">HTML tutorial link</a></li>
+      <li><a href="https://www.w3schools.com/css/default.asp">CSS tutorial link</a></li>
+    </ul>
+    <p>
+      Also, never be afraid to peruse youtube or google any questions you have verbatim. There is an ocean of extremely helpful content out there and any question you have someone else has found an answer for and put it out there. From "How do I center text with CSS?" to "How do I make a link to a PDF with HTML?".
+    </p>
+  </div>
+
+
+
+  <div>
+    <h2>
+      Step Twelve: Custom Website Names!
+    </h2>
+    <p>
+      Just to be clear this part is optional, you now have a fully working website. Your working website link is available in settings under the GitHub pages section. You can email this to people, link it on an instagram account and use it anywhere a normal website url can be used.
+    </p>
+    <p>
+      Also, there is no way to make this part free, website names are regulated and somebody has to pay for them. Right now GitHub is technically paying for your website name. But they don't mind, they're happy to have you on there.
+    </p>
+    <p>If you do want a custom website name it's worthy of seperate walkthrough but here's the short version:</p>
+    <ol>
+      <li>Purchase a domain name via a Web Registrar like Google Domains or Dreamhost</li>
+      <li>Create a file in your website's GitHub reposatory called "CNAME"</li>
+      <li>Paste a copy of the website url in this file (ie "myname.com")</li>
+      <li>On your Registrar's website, find the "DNS Settings" for your purchased site</li>
+      <li>Replace all the "top level records" with the following</li>
+    </ol>
+    <div class="code">
+      <div class="code-header">
+        DNS Configuration / Records
+      </div>
+      &nbsp;&nbsp;&nbsp;@ A 185.199.108.153<br>
+      &nbsp;&nbsp;&nbsp;@ A 185.199.109.153<br>
+      &nbsp;&nbsp;&nbsp;@ A 185.199.110.153<br>
+      &nbsp;&nbsp;&nbsp;@ A 185.199.111.153<br>
+      &nbsp;&nbsp;&nbsp;www CNAME your_github_username.github.io.<br>
+    </div>
+    <p>
+      This is tricky and it's different on different Registrars. On top of this any changes can take hours to update! Don't fear it, you can't really break anything and google / youtube are your friend if you hit a wall!
+    </p>
+  </div>
+
+  <div class="ending-text">
+    <a href="https://github.com/tombetthauser">tom betthauser, 2020</a>
+  </div>
+</body>
+</html>
