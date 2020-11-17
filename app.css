@@ -1,0 +1,136 @@
+body {
+  border-right: 3px dotted white;
+  border-left: 3px dotted white;
+  background-color: black;
+  font-family: monospace;
+  margin: 50px auto;
+  line-height: 20px;
+  max-width: 500px;
+  color: white;
+  display: block;
+  padding: 50px;
+}
+
+.code {
+  border: 1px solid white;
+  border-radius: 0 0 25px 0;
+  font-family: monospace;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  padding: 25px;
+}
+
+.code-header {
+  border: 1px solid white;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+img {
+  filter: invert(1) contrast(10);
+  display: block;
+  margin: auto;
+  width: 80%;
+  /* border-radius: 50%; */
+}
+
+h1 {
+  margin-top: 0px;
+  line-height: 40px;
+  font-weight: 100;
+}
+
+h2, h3 {
+  line-height: 40px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+a {
+  font-weight: 800;
+  color: white;
+}
+
+.ending-text a {
+  text-decoration: none;
+  font-weight: 100;
+}
+
+hr.zig, hr.zag {
+  border: none;
+  height: 30px;
+  margin: 0;
+}
+
+hr.zig{
+  background: linear-gradient(-135deg, #000 20px, rgba(0, 0, 0, 0) 0) 0 5px, linear-gradient(135deg, #000 20px, rgba(0, 0, 0, 0) 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 100;
+  position: relative;
+}
+
+hr.zag {
+  background: linear-gradient(-135deg, #FFF 20px, rgba(0, 0, 0, 0) 0) 0 5px, linear-gradient(135deg, #FFF 20px, #000 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 50;
+  margin-top: -28px;
+}
+
+.ending-text { text-align: center; }
+div { margin-bottom: 75px; }
+
+@media only screen and (max-width: 750px) {
+    body {
+      background-color: black;
+      margin: 0 auto 50px;
+      border-right: none;
+      border-left: none;
+      line-height: 20px;
+      min-width: 350px;
+      display: block;
+      color: white;
+      padding: 25px;
+    }
+}
+
+@media only print {
+  body {
+    border-right: 2px dotted black;
+    border-left: 2px dotted black;
+    padding-right: 25px;
+    padding-left: 25px;
+    line-height: 18px;
+    margin-top: 100px;
+    padding-top: 0px;
+    font-size: 14px;
+    max-width: 50%;
+    min-width: 50%;
+    width: 50%;
+  }
+
+  img {
+    max-width: 80%;
+    min-width: 80%;
+    filter: none;
+    width: 80%;
+  }
+
+  @page {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 0mm;
+    size: auto;
+  }
+
+  h1 { margin-top: 0; }
+  .code-header { border-color: black; }
+  .code { border-color: black; }
+}
